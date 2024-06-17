@@ -1,0 +1,32 @@
+body {
+    background: lightsalmon;
+}
+
+main {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5); 
+    border-radius: 20px;
+    margin: 100px 30px;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+main p {
+    margin: 50px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+@media screen and (max-width: 480px) {
+    main p {
+        font-size: 25px;
+    }
+
+    main {
+        padding: 5px 0;
+    }
+}
+
