@@ -1,11 +1,12 @@
 body {
     font-family: "Montserrat", sans-serif;
+    overflow: scroll;
 }      
 
 h2 {
     font-family: "Sedan SC", serif; 
 }
-  
+
 header {
     background: #BBBBBB;
     padding: 20px 0;
